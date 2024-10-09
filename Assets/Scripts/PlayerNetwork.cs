@@ -13,7 +13,7 @@ public class PlayerNetwork : NetworkBehaviour
         randomNumber.OnValueChanged += (int previousValue, int newValue) =>
         {
             Debug.Log(OwnerClientId.ToString() + " -- " + randomNumber.Value);
-        };
+        };````  
     }
     void Update()
     {
